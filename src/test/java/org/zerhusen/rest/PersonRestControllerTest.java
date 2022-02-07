@@ -17,7 +17,7 @@ public class PersonRestControllerTest extends AbstractRestControllerTest {
 
       assertSuccessfulPersonRequest(token);
    }
-
+//commit here
    @Test
    public void getPersonForAdmin() throws Exception {
       final String token = getTokenForLogin("admin", "admin", getMockMvc());
