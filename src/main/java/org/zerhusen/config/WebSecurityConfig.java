@@ -16,7 +16,7 @@ import org.zerhusen.security.JwtAccessDeniedHandler;
 import org.zerhusen.security.JwtAuthenticationEntryPoint;
 import org.zerhusen.security.jwt.JWTConfigurer;
 import org.zerhusen.security.jwt.TokenProvider;
-
+//test
 @EnableWebSecurity
 @EnableGlobalMethodSecurity(prePostEnabled = true, securedEnabled = true)
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
