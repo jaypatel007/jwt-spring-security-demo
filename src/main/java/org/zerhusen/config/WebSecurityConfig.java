@@ -105,7 +105,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
          .and()
          .apply(securityConfigurerAdapter());
    }
-
+//test without merge
    private JWTConfigurer securityConfigurerAdapter() {
       return new JWTConfigurer(tokenProvider);
    }
